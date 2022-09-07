@@ -17,5 +17,6 @@ public class candies_and_two_sisters {
                 System.out.println(arr[j]/2);
             }
         }
+        sc.close();
     }
 }
