@@ -4,7 +4,7 @@ public class divisibility_problem
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int t=sc.nextInt();
-        int m=1;
+        
         
         int [] arr1=new int[t];
         int [] arr2=new int[t];
@@ -27,5 +27,6 @@ public class divisibility_problem
                 System.out.println(ans);
             }
         }
+        sc.close();
     }
 }
