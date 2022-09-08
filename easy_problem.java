@@ -24,6 +24,7 @@ public class easy_problem {
             {
             System.out.println("HARD");
             }
+            sc.close();
     }
     }
 
