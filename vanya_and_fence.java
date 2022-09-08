@@ -18,5 +18,6 @@ public class vanya_and_fence {
             count=count+1;
         }
         System.out.println(count);
+        sc.close();
     }
 }
