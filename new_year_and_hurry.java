@@ -7,18 +7,23 @@ public class new_year_and_hurry {
         int t=sc.nextInt();
         t=240-t;
         int fin=0;
-         for(int i=1;i<=n;i++)
+         for (int j = 1; j<=n; j++) 
          {
-             total=total+5*i;
+             total=total+5*j;
              fin=t-total;
          
              if(fin<0)
-             System.out.println(i-1);  
+             {
+             System.out.println(j-1);  
+             }
              else
+             {
              System.out.println(n);
+             }
              break;
          }
-        sc.close();
+         }
+        
     }
-}
+
 
