@@ -22,6 +22,7 @@ public class new_year_and_hurry {
              }
              break;
          }
+         sc.close();
          }
         
     }
