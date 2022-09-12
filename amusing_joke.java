@@ -18,6 +18,6 @@ public class amusing_joke {
                 System.out.println("NO");
             }
         }
-
+        sc.close();
     }
 }
