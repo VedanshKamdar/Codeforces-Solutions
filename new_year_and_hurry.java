@@ -11,17 +11,17 @@ public class new_year_and_hurry {
          {
              total=total+5*j;
              fin=t-total;
-         
              if(fin<0)
              {
              System.out.println(j-1);  
              }
              else
              {
-             System.out.println(n);
+             continue;
              }
-             break;
+             
          }
+         System.out.println(n);
          sc.close();
          }
         

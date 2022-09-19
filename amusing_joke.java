@@ -1,23 +1,35 @@
 import java.util.Scanner;
 
-public class amusing_joke {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner (System.in);
-        String st1=sc.nextLine();
-        String st2=sc.nextLine();
-        String st3=sc.nextLine();
-        if(st3.length()==(st1.length()+st2.length()))
-        {
-            if(st3.contains(st1)&&(st3.contains(st2)))
-            {
+public class amusing_joke
+{
+    public static void main(String[] args)
+    {
+        Scanner z = new Scanner(System.in);
+        String s = z.nextLine().toLowerCase();
+        String n = z.nextLine().toLowerCase();
+        String p = z.nextLine().toLowerCase();
+        String sn = s+n;
+        if(sn.length() == p.length()){
+            boolean flag = false;
+            for(char aa='a';aa<='z';aa++){
+                if(sn.contains(String.valueOf(aa))){
+                    sn = sn.replaceAll(String.valueOf(aa), "");
+                    int x = sn.length();
+                    p = p.replaceAll(String.valueOf(aa), "");
+                    int y = p.length();
+                    if(x != y){
+                        flag = true;
+                        break;
+                    }                    
+                }
+            }
+            if(!flag)
                 System.out.println("YES");
-
-            }
             else
-            {
                 System.out.println("NO");
-            }
+        }else{
+            System.out.println("NO");
         }
-        sc.close();
+        z.close();
     }
 }

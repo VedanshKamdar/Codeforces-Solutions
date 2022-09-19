@@ -12,7 +12,7 @@ public class pangram {
         {
             
             if(st.contains(String.valueOf(i)))
-            {
+            {   
                 pan++;
             }
         }
@@ -20,5 +20,6 @@ public class pangram {
         System.out.println("YES");
         else
         System.out.println("NO");
+        sc.close();
     }
 }
