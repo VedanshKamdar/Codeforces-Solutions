@@ -10,5 +10,6 @@ public class design_tutorial {
         System.out.print(c + " ");
         System.out.print(n-c);
     }
+    sc.close();
 }
 }
