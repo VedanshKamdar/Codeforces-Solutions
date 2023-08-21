@@ -19,5 +19,6 @@ public class horseshoe {
             }
         }
         System.out.println(count);
+        sc.close();
     }
 }

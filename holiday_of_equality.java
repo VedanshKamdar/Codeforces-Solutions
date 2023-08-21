@@ -25,5 +25,6 @@ public class holiday_of_equality {
             }  
         }  
         System.out.println(n*(arr[n-1])-total);
+        sc.close();
     }
 }

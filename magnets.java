@@ -21,5 +21,6 @@ public class magnets {
             }
         }
         System.out.println(k);
+        sc.close();
     }
 }

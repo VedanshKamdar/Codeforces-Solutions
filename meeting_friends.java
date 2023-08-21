@@ -26,5 +26,6 @@ public class meeting_friends {
       b = temp;
     }
         System.out.println((Math.abs(a-b)+Math.abs(b-c)));
+        sc.close();
     }
 }

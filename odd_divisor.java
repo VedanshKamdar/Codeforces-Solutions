@@ -20,5 +20,6 @@ public class odd_divisor
                 System.out.println("NO");
             }
         }
+        sc.close();
         }
     }

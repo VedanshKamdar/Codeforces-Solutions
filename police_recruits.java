@@ -17,5 +17,6 @@ public class police_recruits {
             }
         }
         System.out.println(neg);
+        sc.close();
     }
 }

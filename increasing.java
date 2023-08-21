@@ -27,6 +27,7 @@ public class increasing {
             else
             System.out.println("YES");
         }
+        sc.close();
     }
     
 }
