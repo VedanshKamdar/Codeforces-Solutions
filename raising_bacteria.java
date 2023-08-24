@@ -1,4 +1,4 @@
-// 579A Raising Bacteria
+
 import java.util.Scanner;
 
 public class raising_bacteria {
