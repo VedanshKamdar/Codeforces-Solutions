@@ -11,7 +11,6 @@ public class black_square {
         String s = sc.nextLine();
         int sum = 0;
         int n = s.length();
-        long l=Long.parseLong(s);
         for (int i = 0; i < n; i++) {
             char ch = s.charAt(i); 
             if (ch == '1')
@@ -23,7 +22,6 @@ public class black_square {
             else
                 sum += a4;
         }
-        
         System.out.println(sum);
         sc.close();
     }
